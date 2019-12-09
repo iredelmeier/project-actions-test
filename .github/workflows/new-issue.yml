@@ -7,8 +7,6 @@ jobs:
   add-issue-to-project:
     runs-on: ubuntu-latest
     steps:
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v1
     - uses: alex-page/github-project-automation-plus@v0.1.0
       with:
         project: test
