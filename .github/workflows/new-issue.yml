@@ -9,6 +9,6 @@ jobs:
     steps:
     - uses: alex-page/github-project-automation-plus@v0.1.0
       with:
-        project: test
+        project: repo project
         column: To do
-        repo-token: ${{ secrets.GH_TOKEN }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
